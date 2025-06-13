@@ -51,7 +51,7 @@ Optional: VS Code or another code editor
 Installation
 
 Clone the Repository:
-git clone https://github.com/Algorithm-Archetict/E-Commerce.git
+git clone https://github.com/MohamedEbraheem22/E-commerce_Project
 cd E-Commerce
 
 
