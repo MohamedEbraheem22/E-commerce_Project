@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-Commerce</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/products.css">
+</head>
+<body>
+    <header>
+        <img src="../images/logo3.png" alt="Logo" class="logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="orders.html">Orders</a>
+            <a href="profile.html">Profile</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h1>All Products</h1>
+        <div class="filters">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <select id="category-filter"></select>
+        </div>
+        <section id="product-list"></section>
+        <div class="pagination">
+            <button id="prev-page" class="btn" disabled>Previous</button>
+            <div id="page-numbers"></div>
+            <button id="next-page" class="btn">Next</button>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 E-Commerce. All rights reserved.</p>
+    </footer>
+    <script type="module" src="../js/products.js"></script>
+</body>
+</html>

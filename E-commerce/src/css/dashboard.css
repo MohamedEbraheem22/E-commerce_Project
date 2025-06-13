@@ -1,0 +1,333 @@
+/* Dashboard layout */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+    position: relative;
+}
+
+main h1:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: var(--secondary);
+    margin-top: 0.5rem;
+}
+
+/* Dashboard navigation */
+#dashboard-links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+#dashboard-links a {
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+    text-align: center;
+    min-width: 100px;
+}
+
+#dashboard-links a:hover {
+    background: var(--primary-hover);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
+#dashboard-links a.active {
+    background: var(--primary);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Section styling */
+section {
+    max-width: 1200px;
+    margin: 0 auto 3rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    animation: fadeIn 0.5s ease;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--border);
+}
+
+/* KPI section */
+#kpi-section {
+    margin-bottom: 2rem;
+}
+
+#kpi-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.kpi-card {
+    background: #fff;
+    padding: 1.8rem;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    text-align: center;
+    box-shadow: var(--shadow);
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.kpi-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.kpi-card p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.kpi-card:nth-child(1) {
+    border-top: 4px solid var(--primary);
+}
+
+.kpi-card:nth-child(2) {
+    border-top: 4px solid var(--success);
+}
+
+.kpi-card:nth-child(3) {
+    border-top: 4px solid var(--accent);
+}
+
+/* Form styling */
+.form {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-hover);
+    box-shadow: 0 0 0 3px rgba(69, 123, 157, 0.2);
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form .btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background: var(--primary);
+    color: #fff;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+td {
+    border-bottom: 1px solid var(--border);
+}
+
+/* Button styling in tables */
+td .btn {
+    padding: 0.4rem 0.8rem;
+    background-color: var(--primary);
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+td .edit-product {
+    background-color: var(--primary-hover);
+}
+
+
+
+td .approve-product {
+    background-color: var(--primary);
+}
+
+/* Order status select */
+.order-status {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background-color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+    main {
+        padding: 1.5rem;
+    }
+    
+    #dashboard-links {
+        justify-content: center;
+    }
+    
+    #dashboard-links a {
+        flex: 1;
+        min-width: 80px;
+    }
+    
+    .kpi-card {
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    
+    #kpi-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .kpi-card {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    section {
+        padding: 1rem;
+    }
+    
+    .form {
+        padding: 1.5rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Loading indicator */
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-light);
+}
+
+.loading:after {
+    content: "...";
+    animation: dots 1.5s steps(5, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: "."; }
+    40% { content: ".."; }
+    60% { content: "..."; }
+    80%, 100% { content: ""; }
+}

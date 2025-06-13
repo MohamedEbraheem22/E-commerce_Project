@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - E-Commerce</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    <header>
+        <img src="../images/logo3.png" alt="Logo" class="logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="orders.html">Orders</a>
+            <a href="profile.html">Profile</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Your Cart</h1>
+        <section id="cart-items"></section>
+        <section id="order-summary">
+            <h2>Order Summary</h2>
+            <p>Total Items: <span id="total-items">0</span></p>
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+            <button id="checkout-btn" class="btn">Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 E-Commerce. All rights reserved.</p>
+    </footer>
+    <script type="module" src="../js/cart.js"></script>
+</body>
+</html>

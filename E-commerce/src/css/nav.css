@@ -1,0 +1,54 @@
+header {
+    background: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 120px;
+    border-radius: 50%; 
+    height: auto; 
+    
+   
+    padding: 0px 4px 0px 4px;
+    background: transparent; 
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover effects */
+
+/* Active state */
+.logo:active {
+    transform: scale(0.98); /* Subtle press effect */
+}
+
+/* Responsive sizing */
+@media (max-width: 768px) {
+    .logo {
+        width: 48px; /* Slightly smaller on mobile */
+    }
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(0, 123, 255, 0.1);
+}

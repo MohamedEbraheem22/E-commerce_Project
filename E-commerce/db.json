@@ -1,0 +1,1120 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@ecommerce.com",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane@ecommerce.com",
+      "username": "janesmith",
+      "password": "password456",
+      "role": "seller"
+    },
+    {
+      "id": "3",
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bob@ecommerce.com",
+      "username": "bobjohnson",
+      "password": "password789",
+      "role": "seller"
+    },
+    {
+      "id": "4",
+      "firstName": "Alice",
+      "lastName": "Brown",
+      "email": "alice@ecommerce.com",
+      "username": "alicebrown",
+      "password": "password101",
+      "role": "seller"
+    },
+    {
+      "id": "5",
+      "firstName": "Tom",
+      "lastName": "Wilson",
+      "email": "tom@ecommerce.com",
+      "username": "tomwilson",
+      "password": "password202",
+      "role": "seller"
+    },
+    {
+      "id": "6",
+      "firstName": "Emma",
+      "lastName": "Davis",
+      "email": "emma@ecommerce.com",
+      "username": "emmadavis",
+      "password": "password303",
+      "role": "seller"
+    },
+    {
+      "id": "7",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@ecommerce.com",
+      "username": "johndoe",
+      "password": "password123",
+      "role": "customer"
+    },
+    {
+      "id": "8",
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "email": "sarah@ecommerce.com",
+      "username": "sarahlee",
+      "password": "password456",
+      "role": "customer"
+    },
+    {
+      "id": "9",
+      "firstName": "Mike",
+      "lastName": "Chen",
+      "email": "mike@ecommerce.com",
+      "username": "mikechen",
+      "password": "password789",
+      "role": "customer"
+    },
+    {
+      "id": "10",
+      "firstName": "Lisa",
+      "lastName": "Taylor",
+      "email": "lisa@ecommerce.com",
+      "username": "lisataylor",
+      "password": "password101",
+      "role": "customer"
+    },
+    {
+      "id": "9325",
+      "firstName": "mo",
+      "lastName": "ebrahim",
+      "email": "mohamed@gmail.com",
+      "username": "mohamed",
+      "password": "123456",
+      "role": "customer"
+    },
+    {
+      "id": "9be2",
+      "firstName": "mohamed",
+      "lastName": "elgabry",
+      "email": "mohamedelgabry@gmail.com",
+      "username": "mohamed123",
+      "password": "123456a",
+      "role": "customer"
+    },
+    {
+      "id": "6def",
+      "firstName": "ali",
+      "lastName": "mohamed",
+      "email": "mohamed@gmail.com",
+      "username": "mohamed22",
+      "password": "123456a",
+      "role": "customer"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "image": "https://thumbs.dreamstime.com/b/popular-electronic-devices-detailed-set-30928247.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Clothing",
+      "image": "https://s.wsj.net/public/resources/images/BN-XU052_ONESHE_1000V_20180308123844.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Books",
+      "image": "https://static.toiimg.com/thumb/msid-104701845,imgsize-100598,width-900,height-1200,resizemode-6/104701845.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Home & Kitchen",
+      "image": "https://s3.amazonaws.com/buildercloud/1a5e7ed6587ee905ab32d94ed23432fb.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Sports",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/66bf43df727b75128d6f97b1/Huge-multi-sports-collage-taekwondo--tennis--soccer--basketball--etc/960x0.jpg?format=jpg&width=960"
+    },
+    {
+      "id": "6",
+      "name": "Toys",
+      "image": "https://cdn.s7.shopdisney.asia/is/image/ShopDisneyAPAC/apac_plp_toys_tangledilydoll_sq_dm?fit=constrain&cropN=0,0,1,1&fmt=jpeg&qlt=90&wid=590"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Smartphone X",
+      "price": 699.99,
+      "category": "Electronics",
+      "image": "https://ae01.alicdn.com/kf/Hee52030a85714025a662d2304a0e76cfX.jpg",
+      "stock": 50,
+      "description": "Latest smartphone with 5G and 128GB storage.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "name": "Wireless Headphones",
+      "price": 149.99,
+      "category": "Electronics",
+      "image": "https://images-fe.ssl-images-amazon.com/images/I/610NdWdTLiL._AC_UL375_SR375,375_.jpg",
+      "stock": 100,
+      "description": "Noise-canceling wireless headphones.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "name": "Laptop Pro",
+      "price": 1299.99,
+      "category": "Electronics",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_16-inch-MacBook-Pro_111319_big.jpg.large.jpg",
+      "stock": 30,
+      "description": "High-performance laptop with 16GB RAM.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "4",
+      "name": "Smart Watch",
+      "price": 249.99,
+      "category": "Electronics",
+      "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/07/676083/1.jpg?2782",
+      "stock": 75,
+      "description": "Fitness tracking and notifications.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Speaker",
+      "price": 89.99,
+      "category": "Electronics",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/11/portablebluetoothspeakers-2048px-9481.jpg?auto=webp&quality=75&width=1024",
+      "stock": 120,
+      "description": "Portable speaker with deep bass.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "6",
+      "name": "Men's Jacket",
+      "price": 79.99,
+      "category": "Clothing",
+      "image": "https://m.media-amazon.com/images/I/71zBRJ3XlpL._AC_SL1500_.jpg",
+      "stock": 60,
+      "description": "Water-resistant jacket for all seasons.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "7",
+      "name": "Women's T-Shirt",
+      "price": 19.99,
+      "category": "Clothing",
+      "image": "https://m.media-amazon.com/images/I/41PiL-whfrL._AC_SY1000_.jpg",
+      "stock": 200,
+      "description": "Comfortable cotton t-shirt.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "8",
+      "name": "Jeans",
+      "price": 49.99,
+      "category": "Clothing",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1736527960-untitled-3-67815035563fa.jpg?crop=0.774xw:0.830xh;0.111xw,0.0871xh&resize=980:*",
+      "stock": 150,
+      "description": "Slim-fit denim jeans.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "name": "Dress",
+      "price": 59.99,
+      "category": "Clothing",
+      "image": "https://i.pinimg.com/564x/3a/c0/1a/3ac01ab43cef8ec80bb61410820f7bd4.jpg",
+      "stock": 100,
+      "description": "Elegant evening dress.",
+      "sellerId": "5",
+      "status": "pending",
+      "id": "10"
+    },
+    {
+      "id": "11",
+      "name": "Sci-Fi Novel",
+      "price": 14.99,
+      "category": "Books",
+      "image": "https://m.media-amazon.com/images/I/81OkWjcf4WL.jpg",
+      "stock": 300,
+      "description": "Bestselling science fiction novel.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "12",
+      "name": "Cookbook",
+      "price": 24.99,
+      "category": "Books",
+      "image": "https://m.media-amazon.com/images/I/911pI+iDkCL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 200,
+      "description": "Recipes for everyday meals.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "13",
+      "name": "History Book",
+      "price": 29.99,
+      "category": "Books",
+      "image": "https://i.ebayimg.com/images/g/HxkAAOSwsW9Y0HDz/s-l400.jpg",
+      "stock": 150,
+      "description": "Comprehensive world history.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "14",
+      "name": "Mystery Novel",
+      "price": 12.99,
+      "category": "Books",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1689022546-71wytopNhPL.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "stock": 250,
+      "description": "Gripping mystery thriller.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "15",
+      "name": "Children's Book",
+      "price": 9.99,
+      "category": "Books",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/TAl3ppJPztqD8zoPnh-QFw3ePSw=/fit-in/525x800/filters:format_auto():upscale()/2013/01/05/1/192/1922664/70e2c08b0cb9ff8a_charlottes_web.JPG",
+      "stock": 400,
+      "description": "Fun and educational storybook.",
+      "sellerId": 6,
+      "status": "approved"
+    },
+    {
+      "id": "16",
+      "name": "Coffee Maker",
+      "price": 69.99,
+      "category": "Home & Kitchen",
+      "image": "https://us.home-appliances.philips/cdn/shop/files/BaristaBrew_LongAmericano_1920x1080_pdp_1500x.jpg?v=1727984512",
+      "stock": 100,
+      "description": "Programmable coffee maker.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "17",
+      "name": "Blender",
+      "price": 49.99,
+      "category": "Home & Kitchen",
+      "image": "https://westinghousesmallappliances.com.au/cdn/shop/files/Westinghouse_Blender_800W_Turn_Dial_Control_1.8L_Glass_Jug_-_-_-885087.jpg?v=1741662896",
+      "stock": 120,
+      "description": "High-power blender for smoothies.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "18",
+      "name": "Cookware Set",
+      "price": 129.99,
+      "category": "Home & Kitchen",
+      "image": "https://m.media-amazon.com/images/I/71upfe1PT7L.jpg",
+      "stock": 80,
+      "description": "Non-stick cookware set.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "19",
+      "name": "Vacuum Cleaner",
+      "price": 199.99,
+      "category": "Home & Kitchen",
+      "image": "https://m.media-amazon.com/images/I/61uxNxBtyQL._AC_UF894,1000_QL80_.jpg",
+      "stock": 60,
+      "description": "Powerful cordless vacuum.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "20",
+      "name": "Air Fryer",
+      "price": 89.99,
+      "category": "Home & Kitchen",
+      "image": "https://m.media-amazon.com/images/I/81-a2dIEgXL._AC_UF350,350_QL80_.jpg",
+      "stock": 90,
+      "description": "Healthy cooking with less oil.",
+      "sellerId": 6,
+      "status": "pending"
+    },
+    {
+      "id": "21",
+      "name": "Yoga Mat",
+      "price": 29.99,
+      "category": "Sports",
+      "image": "https://www.intersport.com.eg/cdn/shop/files/7624769302132a-PinkYogaMat.png?v=1707748276",
+      "stock": 150,
+      "description": "Non-slip yoga mat.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "22",
+      "name": "Dumbbell Set",
+      "price": 59.99,
+      "category": "Sports",
+      "image": "https://repfitness.com/cdn/shop/products/Shopify-DB-3000-550-Thumbnail.jpg?v=1635876012",
+      "stock": 100,
+      "description": "Adjustable dumbbell set.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "23",
+      "name": "Tennis Racket",
+      "price": 79.99,
+      "category": "Sports",
+      "image": "https://www.intersport.com.eg/cdn/shop/products/wr078811u2a.jpg?v=1703095945",
+      "stock": 80,
+      "description": "Lightweight tennis racket.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "24",
+      "name": "Soccer Ball",
+      "price": 19.99,
+      "category": "Sports",
+      "image": "https://m.media-amazon.com/images/I/81ZVqvwgFQL._AC_UF894,1000_QL80_DpWeblab_.jpg",
+      "stock": 200,
+      "description": "Durable soccer ball.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "25",
+      "name": "Bicycle",
+      "price": 299.99,
+      "category": "Sports",
+      "image": "https://m.media-amazon.com/images/I/61bCKuCfvzL.jpg",
+      "stock": 40,
+      "description": "Mountain bike with 21 speeds.",
+      "sellerId": 6,
+      "status": "approved"
+    },
+    {
+      "id": "26",
+      "name": "Lego Set",
+      "price": 49.99,
+      "category": "Toys",
+      "image": "https://images-cdn.ubuy.co.in/65326748fc1b0e3fe6188f02-lego-the-first-adventure-21169-building.jpg",
+      "stock": 150,
+      "description": "Creative building set for kids.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "27",
+      "name": "Action Figure",
+      "price": 19.99,
+      "category": "Toys",
+      "image": "https://images.bigbadtoystore.com/images/p/full/2023/06/e0e7d3f7-672f-424c-9009-d64d9bd57bab.jpg",
+      "stock": 200,
+      "description": "Superhero action figure.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "28",
+      "name": "Board Game",
+      "price": 29.99,
+      "category": "Toys",
+      "image": "https://www.bigjigstoys.co.uk/cdn/shop/products/BJ788-15_460x@2x.jpg?v=1681829005",
+      "stock": 120,
+      "description": "Family-friendly strategy game.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "29",
+      "name": "Puzzle",
+      "price": 14.99,
+      "category": "Toys",
+      "image": "https://journeyofsomething.com/cdn/shop/products/1000_Piece_Puzzle_All_Around_Oz_5_800x.jpg?v=1726464718",
+      "stock": 250,
+      "description": "1000-piece jigsaw puzzle.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "30",
+      "name": "Remote Control Car",
+      "price": 39.99,
+      "category": "Toys",
+      "image": "https://healthway.com.bd/media/images/116_car_1.original.jpegquality-30.format-webp.webp",
+      "stock": 100,
+      "description": "Fast remote control car.",
+      "sellerId": 6,
+      "status": "approved"
+    },
+    {
+      "id": "31",
+      "name": "Tablet",
+      "price": 399.99,
+      "category": "Electronics",
+      "image": "https://media.wired.com/photos/649b2dbfc859c4a1cdecc412/4:3/w_960,c_limit/Amazon-Fire-Max-11-Review--Stand-Gear.jpg",
+      "stock": 60,
+      "description": "10-inch tablet with 64GB storage.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "32",
+      "name": "Gaming Console",
+      "price": 499.99,
+      "category": "Electronics",
+      "image": "https://i.insider.com/64920c4351ea980019d6e9d6?width=1200&format=jpeg",
+      "stock": 40,
+      "description": "Next-gen gaming console.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "33",
+      "name": "Sweater",
+      "price": 39.99,
+      "category": "Clothing",
+      "image": "https://d3rfhm6ilkew5i.cloudfront.net/spree/images/attachments/000/032/542/large/Sometimes-Sweater_CSW_Mellow-Mauve_18.jpg?1648209674",
+      "stock": 120,
+      "description": "Cozy wool sweater.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "34",
+      "name": "Romance Novel",
+      "price": 11.99,
+      "category": "Books",
+      "image": "https://ew.com/thmb/0qKVFKbUfYA6HdyNK7WtmpKro8U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Marry-Me-By-Midnight-Felicia-Grossman-summer-romance-081623-7623ad06fa63436abb6d7a04a762e205.jpg",
+      "stock": 200,
+      "description": "Heartwarming romance story.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "35",
+      "name": "Toaster Oven",
+      "price": 59.99,
+      "category": "Home & Kitchen",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2022/11/toasterovens-2048px-2118-3x2-1.jpg?auto=webp&quality=75&crop=1:1,smart&width=1024",
+      "stock": 90,
+      "description": "Compact toaster oven.",
+      "sellerId": 6,
+      "status": "approved"
+    },
+    {
+      "id": "36",
+      "name": "Basketball",
+      "price": 24.99,
+      "category": "Sports",
+      "image": "https://m.media-amazon.com/images/I/81S5r02f8+L.jpg",
+      "stock": 150,
+      "description": "Official size basketball.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "37",
+      "name": "Stuffed Animal",
+      "price": 14.99,
+      "category": "Toys",
+      "image": "https://m.media-amazon.com/images/I/61rys6Xhw7L.jpg",
+      "stock": 200,
+      "description": "Soft teddy bear.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "38",
+      "name": "Camera",
+      "price": 599.99,
+      "category": "Electronics",
+      "image": "https://i5.walmartimages.com/asr/f7837d96-46a9-4a93-b2ae-7aae9d4a34b7.ee7886a1edadebb5617039a832aef144.jpeg",
+      "stock": 25,
+      "description": "DSLR camera with 24MP sensor.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "39",
+      "name": "Scarf",
+      "price": 14.99,
+      "category": "Clothing",
+      "image": "https://m.media-amazon.com/images/I/41c0FgoJzNL._AC_.jpg",
+      "stock": 180,
+      "description": "Warm winter scarf.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "41",
+      "name": "Microwave",
+      "price": 99.99,
+      "category": "Home & Kitchen",
+      "image": "https://i5.walmartimages.com/seo/Mainstays-0-7-Cu-ft-Countertop-Microwave-Oven-700-Watts-Red_4b92aa8c-02b8-46a6-bef3-3703bdb0561b.b6e6bc78a354a40aadddb81d33b93e94.jpeg",
+      "stock": 70,
+      "description": "Compact microwave oven.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "42",
+      "name": "Skateboard",
+      "price": 49.99,
+      "category": "Sports",
+      "image": "https://cozykids.gr/cdn/shop/files/CFSK01BLA_01_750x.jpg?v=1712314870",
+      "stock": 100,
+      "description": "Durable skateboard for tricks.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "43",
+      "name": "Dollhouse",
+      "price": 79.99,
+      "category": "Toys",
+      "image": "https://media.hedeya.com/catalog/product/cache/9226ed1960d3440a4fba9c3c101cbf77/7/1/71eatyaprvl._sl1500_.jpg",
+      "stock": 60,
+      "description": "Wooden dollhouse with furniture.",
+      "sellerId": 4,
+      "status": "approved"
+    },
+    {
+      "id": "44",
+      "name": "Earbuds",
+      "price": 59.99,
+      "category": "Electronics",
+      "image": "https://cdn.mafrservices.com/pim-content/EGY/media/product/6941213608697/1724766605/6941213608697_main.jpeg?im=Resize=480",
+      "stock": 150,
+      "description": "Wireless earbuds with charging case.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "45",
+      "name": "Hat",
+      "price": 24.99,
+      "category": "Clothing",
+      "image": "https://m.media-amazon.com/images/I/71tKXRvS9IL._AC_SL1500_.jpg",
+      "stock": 140,
+      "description": "Stylish baseball cap.",
+      "sellerId": 6,
+      "status": "approved"
+    },
+    {
+      "id": "46",
+      "name": "Self-Help Book",
+      "price": 16.99,
+      "category": "Books",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71GIs60RaLL._AC_UL600_SR600,600_.jpg",
+      "stock": 180,
+      "description": "Motivational self-help guide.",
+      "sellerId": 2,
+      "status": "approved"
+    },
+    {
+      "id": "47",
+      "name": "Electric Kettle",
+      "price": 39.99,
+      "category": "Home & Kitchen",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOVomjBGgPSWfJb5i5aMNwTdHh0wC-vMinA&s",
+      "stock": 110,
+      "description": "Fast-boiling electric kettle.",
+      "sellerId": 3,
+      "status": "approved"
+    },
+    {
+      "id": "49",
+      "name": "Building Blocks",
+      "price": 29.99,
+      "category": "Toys",
+      "image": "https://m.media-amazon.com/images/I/71CuhmLzNaL._AC_SL1500_.jpg",
+      "stock": 160,
+      "description": "Colorful building blocks for kids.",
+      "sellerId": 5,
+      "status": "approved"
+    },
+    {
+      "id": "6a89",
+      "name": "Moro",
+      "price": 5,
+      "category": "Home & Kitchen",
+      "image": "https://abusamra.net/wp-content/uploads/2020/05/cadbury-moro-22-gm-1218_550.jpg",
+      "stock": 40,
+      "description": "This is one of the best chocolates ever",
+      "sellerId": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8fe1",
+      "name": "iphone 13 pro max",
+      "price": 500,
+      "category": "Electronics",
+      "image": "https://www.google.com/imgres?q=iphone%2013%20pro%20max&imgurl=https%3A%2F%2Flinkemstores.com%2FWebFileProducts%2F6354%2F1_product.jpg&imgrefurl=https%3A%2F%2Flinkemstores.com%2Fproduct%2F6354&docid=DUiNon3zImHeeM&tbnid=pKvCoSV05P6mgM&vet=12ahUKEwimovr14JiNAxXRfKQEHRIxEB4QM3oECB0QAA..i&w=597&h=750&hcb=2&ved=2ahUKEwimovr14JiNAxXRfKQEHRIxEB4QM3oECB0QAA",
+      "stock": 5,
+      "description": "iphone 13 pro max 256GB",
+      "sellerId": "2",
+      "status": "approved"
+    }
+  ],
+  "orders": [
+    {
+      "id": "3",
+      "userId": 9,
+      "items": [
+        {
+          "productId": 11,
+          "quantity": 3,
+          "price": 14.99
+        }
+      ],
+      "status": "shipped",
+      "createdAt": "2025-05-03T14:00:00Z",
+      "sellerId": 2
+    },
+    {
+      "id": "4",
+      "userId": 10,
+      "items": [
+        {
+          "productId": 16,
+          "quantity": 1,
+          "price": 69.99
+        }
+      ],
+      "status": "delivered",
+      "createdAt": "2025-05-04T16:00:00Z",
+      "sellerId": 2
+    },
+    {
+      "id": "5",
+      "userId": 7,
+      "items": [
+        {
+          "productId": 21,
+          "quantity": 2,
+          "price": 29.99
+        }
+      ],
+      "status": "shipped",
+      "createdAt": "2025-05-05T18:00:00Z",
+      "sellerId": 2
+    },
+    {
+      "id": "6",
+      "userId": 8,
+      "items": [
+        {
+          "productId": 26,
+          "quantity": 1,
+          "price": 49.99
+        }
+      ],
+      "status": "shipped",
+      "createdAt": "2025-05-06T20:00:00Z",
+      "sellerId": 2
+    },
+    {
+      "id": "7",
+      "userId": 9,
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-07T22:00:00Z",
+      "sellerId": 3
+    },
+    {
+      "id": "8",
+      "userId": 10,
+      "items": [
+        {
+          "productId": 8,
+          "quantity": 2,
+          "price": 49.99
+        }
+      ],
+      "status": "shipped",
+      "createdAt": "2025-05-08T10:00:00Z",
+      "sellerId": 4
+    },
+    {
+      "id": "9",
+      "userId": 7,
+      "items": [
+        {
+          "productId": 13,
+          "quantity": 1,
+          "price": 29.99
+        }
+      ],
+      "status": "delivered",
+      "createdAt": "2025-05-09T12:00:00Z",
+      "sellerId": 4
+    },
+    {
+      "id": "10",
+      "userId": 8,
+      "items": [
+        {
+          "productId": 19,
+          "quantity": 1,
+          "price": 199.99
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-10T14:00:00Z",
+      "sellerId": 5
+    },
+    {
+      "id": "d39f",
+      "userId": "7",
+      "items": [
+        {
+          "productId": 2,
+          "name": "Wireless Headphones",
+          "quantity": 2,
+          "price": 149.99
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-16T11:00:59.717Z",
+      "totalAmount": 299.98
+    },
+    {
+      "id": "5c5c",
+      "userId": "7",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": 149.99
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-16T11:19:05.224Z"
+    },
+    {
+      "id": "eba6",
+      "userId": "7",
+      "items": [
+        {
+          "productId": 11,
+          "quantity": 2,
+          "price": 14.99
+        },
+        {
+          "productId": 14,
+          "quantity": 2,
+          "price": 12.99
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-16T17:47:24.380Z"
+    },
+    {
+      "id": "dc4b",
+      "userId": "7",
+      "items": [
+        {
+          "productId": 11,
+          "quantity": 1,
+          "price": 14.99
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-17T06:29:59.879Z"
+    },
+    {
+      "id": "15bf",
+      "userId": "9be2",
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": 149.99
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "status": "delivered",
+      "createdAt": "2025-05-17T08:44:14.657Z"
+    },
+    {
+      "id": "6e02",
+      "userId": "9be2",
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "status": "delivered",
+      "createdAt": "2025-05-17T08:44:14.658Z"
+    },
+    {
+      "id": "546a",
+      "userId": "7",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 699.99
+        }
+      ],
+      "status": "delivered",
+      "createdAt": "2025-05-17T10:13:21.339Z"
+    },
+    {
+      "id": "e49b",
+      "userId": "6def",
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 1299.99
+        },
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 699.99
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-25T13:21:26.557Z"
+    },
+    {
+      "id": "6842",
+      "userId": "6def",
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "status": "delivered",
+      "createdAt": "2025-05-25T13:21:35.403Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": 1,
+      "userId": "7",
+      "rating": 5,
+      "text": "Amazing phone, fast and reliable!",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "userId": "8",
+      "rating": 4,
+      "text": "Great sound, but battery life could be better.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "3",
+      "productId": 6,
+      "userId": "9",
+      "rating": 5,
+      "text": "Perfect jacket for cold weather.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "4",
+      "productId": 11,
+      "userId": "10",
+      "rating": 3,
+      "text": "Good story, but a bit slow.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "5",
+      "productId": 16,
+      "userId": "7",
+      "rating": 4,
+      "text": "Makes great coffee, easy to use.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "6",
+      "productId": 21,
+      "userId": "8",
+      "rating": 5,
+      "text": "Comfortable and durable mat.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "7",
+      "productId": 26,
+      "userId": "9",
+      "rating": 5,
+      "text": "Kids love this Lego set!",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "8",
+      "productId": 3,
+      "userId": "10",
+      "rating": 4,
+      "text": "Powerful laptop, but a bit heavy.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "9",
+      "productId": 8,
+      "userId": "7",
+      "rating": 5,
+      "text": "Perfect fit, great quality jeans.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "10",
+      "productId": 13,
+      "userId": "8",
+      "rating": 4,
+      "text": "Very informative, well-written.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "11",
+      "productId": 19,
+      "userId": "9",
+      "rating": 5,
+      "text": "Best vacuum I’ve ever used!",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "12",
+      "productId": 24,
+      "userId": "10",
+      "rating": 4,
+      "text": "Good ball, holds up well.",
+      "createdAt": "2025-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "13",
+      "productId": 29,
+      "userId": "7",
+      "rating": 3,
+      "text": "Fun puzzle, but some pieces missing.",
+      "createdAt": "2023-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "14",
+      "productId": 5,
+      "userId": "8",
+      "rating": 5,
+      "text": "Awesome sound quality!",
+      "createdAt": "2025-04-10T07:09:05.570Z"
+    },
+    {
+      "id": "15",
+      "productId": 9,
+      "userId": "9",
+      "rating": 4,
+      "text": "Comfortable sneakers, great for running.",
+      "createdAt": "2024-06-17T07:09:05.570Z"
+    },
+    {
+      "id": "16",
+      "productId": 15,
+      "userId": "10",
+      "rating": 5,
+      "text": "My kids love this book!",
+      "createdAt": "2025-03-17T07:09:05.570Z"
+    },
+    {
+      "id": "17",
+      "productId": 17,
+      "userId": "7",
+      "rating": 4,
+      "text": "Great blender, blends smoothly.",
+      "createdAt": "2025-01-17T07:09:05.570Z"
+    },
+    {
+      "id": "18",
+      "productId": 23,
+      "userId": "8",
+      "rating": 5,
+      "text": "Perfect racket for beginners.",
+      "createdAt": "2024-05-17T07:09:05.570Z"
+    },
+    {
+      "id": "19",
+      "productId": 30,
+      "userId": "9",
+      "rating": 4,
+      "text": "Really fun car, battery lasts long.",
+      "createdAt": "2025-04-17T07:09:05.570Z"
+    },
+    {
+      "id": "20",
+      "productId": 31,
+      "userId": "10",
+      "rating": 5,
+      "text": "Great tablet, very responsive.",
+      "createdAt": "2025-05-02T07:09:05.570Z"
+    },
+    {
+      "id": "dffd",
+      "productId": 1,
+      "userId": "7",
+      "userName": "johndoe",
+      "rating": 5,
+      "text": "very good iphone",
+      "createdAt": "2025-05-17T07:22:26.577Z"
+    },
+    {
+      "id": "1e91",
+      "productId": 1,
+      "userId": "7",
+      "userName": "johndoe",
+      "rating": 5,
+      "text": "amazing produt",
+      "createdAt": "2025-05-17T07:31:54.112Z"
+    },
+    {
+      "id": "2501",
+      "productId": 1,
+      "userId": "7",
+      "userName": "johndoe",
+      "rating": 5,
+      "text": "good product",
+      "createdAt": "2025-05-17T10:19:00.196Z"
+    }
+  ]
+}

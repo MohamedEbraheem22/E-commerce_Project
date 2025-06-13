@@ -1,0 +1,62 @@
+.filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filters input, .filters select {
+    flex: 1;
+    min-width: 200px;
+}
+
+#product-list {
+     display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    min-width: 300px; /* ثبّت العرض */
+    flex-shrink: 0;   /* مايصغرش */
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+}
+
+.product-card .btn-add-to-cart {
+    display: flex !important;
+    gap: 1rem !important;
+    justify-content: center !important;
+    margin-top: 1rem !important;
+    width: 50px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.pagination .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+.pagination .page-number.active {
+    background: var(--primary-hover);
+    color: #fff;
+    box-shadow: var(--shadow);
+}

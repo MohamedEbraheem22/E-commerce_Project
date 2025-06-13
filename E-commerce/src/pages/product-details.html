@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - E-Commerce</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/product-details.css">
+</head>
+<body>
+    <header>
+        <img src="../images/logo3.png" alt="Logo" class="logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="orders.html">Orders</a>
+            <a href="profile.html">Profile</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section id="product-details"></section>
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <form id="review-form" class="form">
+                <div class="form-group">
+                    <label for="rating">Rating (1-5)</label>
+                    <input type="number" id="rating" min="1" max="5" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Review</button>
+            </form>
+            <div id="review-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 E-Commerce. All rights reserved.</p>
+    </footer>
+    <script type="module" src="../js/product-details.js"></script>
+</body>
+</html>
